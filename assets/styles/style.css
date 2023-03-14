@@ -1,0 +1,82 @@
+*{
+    font-family: 'Teko', sans-serif;
+}
+html{
+    font-size: 17px;
+}
+:root{
+    --morado-obscuro:#2E294E;
+    --morado-claro:#541388;
+    --rosado:#ff4ea1;
+    --amarillo:#FFD400;
+    --cremita:#F1E9DA;
+}
+nav{
+    min-height: 15vh;
+    border-bottom: 1px solid var(--morado-obscuro);
+    border-radius: 0 0 1rem 1rem;
+}
+.carousel-contact{
+    height: 14vh;
+}
+main{
+    min-height: 63vh;
+}
+.carousel-item img{
+    height: 70px;
+}
+footer{
+    height: 10vh;
+}
+.bg-yellow{
+background-color: var(--amarillo);
+}
+.bg-pink{
+    background-color: var(--rosado);
+}
+.bg-morado{
+    background-color: var(--morado-claro);
+}
+.bg-morado2{
+    background: linear-gradient(#2E294E,#000000);
+}
+.bg-crema{
+    background-color: var(--cremita);
+}
+.text-morado1{
+    color: var(--morado-claro);
+}
+.text-yellow{
+    color: var(--amarillo);
+}
+.text-pink{
+    color: var(--rosado);
+}
+.text-cremita{
+    color:var(--cremita);
+}
+.border-pink{
+    border: 2px solid var(--rosado);
+}
+.border-yellow{
+    border:2px solid var(--amarillo)
+}
+.detail-container{
+    min-height: 75vh;
+}
+.main-container{
+    min-height: 55vh;
+}
+.main-contact{
+    min-height: 59vh;
+}
+.active{
+    color:var(--morado-claro) !important;
+}
+
+nav li a:hover{
+    color: var(--cremita) !important;
+}
+.text-area{
+    resize: none;
+}
